@@ -18,5 +18,5 @@ def test_calculator_initial_value():
 
 def test_chaining_operations():
     calc = Calculator()
-    calc.add(5).add(20).subtract(15)
+    calc.add(5).add(10).subtract(15)
     assert str(calc) == "Calculator(0)"
